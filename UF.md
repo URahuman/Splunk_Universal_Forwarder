@@ -53,13 +53,13 @@ cd /home/splunk
 9.Download Splunk Universal Forwarder (Based on the version you want, you can get this command from [https://www.splunk.com/en_us/download/splunk-enterprise/thank-you-enterprise.html](https://www.splunk.com/en_us/download/universal-forwarder/thank-you-universalforwarder.html))
 
 ```bash
-wget -O splunkforwarder-9.1.0.1-77f73c9edb85-Linux-x86_64.tgz "https://download.splunk.com/products/universalforwarder/releases/9.1.0.1/linux/splunkforwarder-9.1.0.1-77f73c9edb85-Linux-x86_64.tgz"
+wget -O splunkforwarder-9.2.2-d76edf6f0a15-Linux-x86_64.tgz "https://download.splunk.com/products/universalforwarder/releases/9.2.2/linux/splunkforwarder-9.2.2-d76edf6f0a15-Linux-x86_64.tgz"
 ```
 
 10.Extract the tar package
 
 ```bash
-tar -xvf splunkforwarder-9.1.0.1-77f73c9edb85-Linux-x86_64.tgz -C /opt/
+tar -xvf splunkforwarder-9.2.2-d76edf6f0a15-Linux-x86_64.tgz -C /opt/
 ```
 
 11.Navigate to Splunk bin directory
